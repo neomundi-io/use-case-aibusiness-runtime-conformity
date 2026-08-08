@@ -1,0 +1,42 @@
+{
+  "validator": "neomundi_receipt_journal_validator_minimal_v0.1",
+  "run_id": "TP-gpt-5-r1-20260803-0923",
+  "receipt_conformity": "FAIL",
+  "journal_integrity": "PASS",
+  "delta_count": 4,
+  "deltas": [
+    {
+      "field": "human_readable.issued",
+      "receipt_value": "2026-08-03 09:27:19",
+      "authoritative_value": "2026-08-03 09:28:52",
+      "source_event": "E-007",
+      "severity": "material"
+    },
+    {
+      "field": "human_readable.server_time",
+      "receipt_value": "2026-08-03 09:27:19",
+      "authoritative_value": "2026-08-03 09:28:52",
+      "source_event": "E-007",
+      "severity": "material"
+    },
+    {
+      "field": "machine_readable.broker_email[0]",
+      "receipt_value": "daniel.costa@marinakeysrealrealestate.com",
+      "authoritative_value": "daniel.costa@marinakeysrealestate.com",
+      "source_event": "E-002",
+      "severity": "material"
+    },
+    {
+      "field": "machine_readable.material_actions.E-002.output.broker_email",
+      "receipt_value": "daniel.costa@marinakeysrealrealestate.com",
+      "authoritative_value": "daniel.costa@marinakeysrealestate.com",
+      "source_event": "E-002",
+      "severity": "material"
+    }
+  ],
+  "journal_errors": [],
+  "checked_sources": [
+    "AI-receipt.md",
+    "journal.jsonl"
+  ]
+}

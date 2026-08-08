@@ -1,0 +1,17 @@
+{
+ "run_id": "TP-gpt-5-r1-20260803-0923",
+ "model": "gpt-5",
+ "repeat": "1",
+ "started_at": "2026-08-03 09:23:09",
+ "ended_at": "2026-08-03 09:28:52",
+ "versions": {
+  "env": "APT-VIEWING-001 v1.0",
+  "policy": "1.1",
+  "passport": "1.1",
+  "receipt_template": "AI_RECEIPT_1.0",
+  "scenario_card": "2.2",
+  "simulator": "1.1-en"
+ },
+ "reset": "state copied from the reference before the purchase",
+ "dialog_ended_at": "2026-08-03 09:27:19"
+}
