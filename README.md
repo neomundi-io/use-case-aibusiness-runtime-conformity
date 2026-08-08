@@ -783,3 +783,12 @@ Non encore démontré :
 - gouvernance native structurée de conformité dans NeoMundi ;
 - série comparative multi-modèles ;
 - déploiement en production.
+
+---
+
+## Partner
+
+**aibusiness.vc**  
+Test-purchase methodology, service standards and deterministic receipt-conformity framework.
+
+https://aibusiness.vc
