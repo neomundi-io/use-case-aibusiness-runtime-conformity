@@ -307,3 +307,12 @@ La séparation prévue est :
 Cette séparation permet de distinguer clairement :
 
 **ce qui était prévu → ce qui a été exécuté → ce qui a été vérifié.**
+
+---
+
+## Partner
+
+**aibusiness.vc**  
+Test-purchase methodology, service standards and deterministic receipt-conformity framework.
+
+https://aibusiness.vc
