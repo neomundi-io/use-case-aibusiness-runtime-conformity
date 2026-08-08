@@ -1,0 +1,84 @@
+﻿{
+    "request_id":  "998ba240-9443-4c3a-8c1a-d3414d4f5cfa",
+    "timestamp":  "2026-08-04T19:10:52.597912Z",
+    "system_id":  "controltower-api",
+    "mode":  "OBS",
+    "g_score":  0.6,
+    "g_final":  0.969231,
+    "v_score":  1.0,
+    "delta_g":  0.0,
+    "checks_emitted":  3,
+    "processing_time_ms":  20020.56,
+    "latency_ms":  0.0,
+    "model":  "unknown",
+    "governance":  {
+                       "decision":  "ALLOW",
+                       "confidence":  1.0,
+                       "reasons":  [
+                                       "stability_score=0.923, regime=STABLE -- all metrics within bounds",
+                                       "R=1.000 (latency=1.000, cost=1.000, efficiency=1.000)"
+                                   ]
+                   },
+    "quality":  {
+                    "g_score":  0.6,
+                    "stability_score":  0.923077,
+                    "confidence":  1.0,
+                    "coherence_score":  1.0,
+                    "semantic_risk":  0.0,
+                    "factual_hallucination_score":  0.0,
+                    "semantic_instability_score":  0.0,
+                    "information_density":  0.7525,
+                    "suspect_phrases":  null
+                },
+    "runtime":  {
+                    "r_score":  1.0,
+                    "latency_score":  1.0,
+                    "cost_score":  1.0,
+                    "e_token":  0.0,
+                    "energy_score":  1.0
+                },
+    "metrics":  {
+                    "energy_score":  0.0,
+                    "e_token":  0.0,
+                    "cost_proxy":  0.0,
+                    "latency_proxy":  0.0,
+                    "stability_score":  0.0
+                },
+    "baseline":  {
+                     "reference_energy":  0.05,
+                     "observed_energy":  0.0,
+                     "delta_E":  0.05,
+                     "calibration_status":  null,
+                     "esi_q":  1.0,
+                     "esi_bootstrap":  true
+                 },
+    "audit":  {
+                  "measurement_version":  "3.0.0",
+                  "normalizer_version":  "1.0.0",
+                  "trace_id":  "trace-998ba240"
+              },
+    "density":  {
+                    "volumetric_density":  0.0,
+                    "informational_energy":  127.0,
+                    "informational_density":  1.0,
+                    "risk_coefficient":  3
+                },
+    "esi":  {
+                "g_final":  0.969231,
+                "s_component":  0.369231,
+                "p_component":  0.25,
+                "q_component":  0.15,
+                "c_component":  0.2,
+                "s_value":  0.923077,
+                "p_value":  1.0,
+                "q_value":  1.0,
+                "c_value":  1.0,
+                "betas":  {
+                              "beta_s":  0.4,
+                              "beta_p":  0.25,
+                              "beta_q":  0.15,
+                              "beta_c":  0.2
+                          }
+            },
+    "rag_grounding":  null
+}

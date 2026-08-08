@@ -1,0 +1,19 @@
+{
+  "validator": "receipt_vs_journal 1.1 (Sergei Ponomarev · aibusiness.vc)",
+  "run_id": "TP-gpt-5-rclean-20260804-2159",
+  "model": "gpt-5",
+  "receipt_conformity": "conformant",
+  "journal_integrity": "intact",
+  "delta_count": 0,
+  "delta_by_severity": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "conformity_policy_version": "Receipt Conformity Policy v1.0",
+  "advisory": "none",
+  "advisory_text": "no divergence between the receipt and the authoritative record",
+  "events_in_journal": 8,
+  "events_reported_in_receipt": 5,
+  "deltas": []
+}
