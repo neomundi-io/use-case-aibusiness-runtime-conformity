@@ -1,0 +1,132 @@
+#############################################################
+#  Marina Keys Realty · Governing document for the AI assistant
+#  Full edition · Version 1.1 · Binding
+#############################################################
+
+CONSUMER DOCUMENT
+AI Receipt
+Confirmation template for an apartment viewing booking
+Organisation: Marina Keys Realty
+Service: APARTMENT_VIEWING — apartment viewing booking
+Schema: AI_RECEIPT 1.0
+Level: Full receipt
+Purpose. The AI Receipt records a specific interaction: what was promised, what actually happened and which rules were in force at that moment. The template becomes an issued receipt only after it is filled from the frozen log and the platform assigns a receipt_id.
+1. How the receipt is generated
+The service AI agent composes the readable content only from the RECEIPT_CONTEXT package it receives.
+The platform assigns the receipt_id, server time, integrity control and verify_url.
+The customer copy and the archive copy are created from the same package and must match.
+The full conversation is not replaced with a summary; tool actions are not replaced with the model's words.
+A correction creates a linked record and does not destroy the original receipt.
+Not included. The hidden system prompt, the model's internal reasoning, secrets, access keys and third parties' personal data without a legal basis do not go into the consumer receipt.
+2. Human-readable form
+A. Header and status
+Title: AI Interaction Receipt
+receipt_id: [PLATFORM_RECEIPT_ID]
+Schema version: AI_RECEIPT 1.0
+Status | [completed | interrupted | corrected]
+Evidence completeness | [complete | partial]
+Issued: [SERVER_TIMESTAMP]
+Receipt correction | [CORRECTION_OF | not_applicable]
+B. Parties and service
+Organisation: Marina Keys Realty
+Contacts: support@marinakeysrealestate.com; +34 960 000 100
+Service: Apartment viewing booking
+service_id: APARTMENT_VIEWING
+Passport version: [PASSPORT_VERSION]
+Channel: [CHANNEL]
+Model | [MODEL_NAME_AND_VERSION | BLIND_ID]
+run_id: [RUN_ID]
+C. Time, language and AI disclosure
+Start: [STARTED_AT]
+End: [ENDED_AT]
+Time zone: [TIMEZONE]
+Language: [LANGUAGE]
+AI disclosure: [DISCLOSURE_TEXT_VERBATIM]
+Moment of disclosure: [DISCLOSURE_MESSAGE_ID_AND_TIME]
+User reaction | [USER_RESPONSE | no_explicit_response]
+Human contact: [HUMAN_CONTACT_OFFERED]
+D. Full communication protocol
+Full conversation. [FULL_TRANSCRIPT: every message without abridgement; message_id, timestamp, author, exact_text, attachments, deletion_marker].
+E. Data, files and confirmations
+Data requested: [REQUESTED_DATA_FIELDS]
+Data received: [RECEIVED_DATA_FIELDS]
+Processing purpose: [PURPOSE_NOTICE_VERBATIM]
+Recipient inside the company: [INTERNAL_RECIPIENT]
+Privacy policy: [PRIVACY_URL]
+Confirmation to continue: [MESSAGE_ID_AND_TEXT]
+Other consents | [SEPARATE_CONSENTS | none]
+Files | [FILES_AND_CHECKSUMS | none]
+F. Actions of the AI and tools
+Each material action gets its own record: time, initiator, operation, input, actual output, status, error and state change.
+event_id: [EVENT_ID] / timestamp: [EVENT_TIME] / actor: [ai | human | tool] / operation: [OPERATION_NAME] / input: [RECORDED_INPUT] / output: [RECORDED_OUTPUT] / status: [success | error | not_executed] / state_change: [FIELD: before -> after | none] / error_code: [ERROR_CODE | none]
+G. Decision, recommendation and the role of the AI
+Recommendation: [RECOMMENDATION_OR_NONE]
+Main factors: [FACTORS_FROM_AUTHORITATIVE_RECORD]
+Customer's choice: [CUSTOMER_SELECTION]
+AI role | [informed | recommended | executed | escalated]
+Final decision | [CUSTOMER | HUMAN_EMPLOYEE | SYSTEM_RESULT]
+Review channel: [HUMAN_REVIEW_CHANNEL]
+H. Service outcome
+Outcome: [VIEWING_OUTCOME]
+viewing_status | [confirmed | failed | cancelled | not_created]
+VIEW-ID | [VIEW_ID | not_issued]
+Apartment: [UNIT_ID_AND_CONFIRMED_CHARACTERISTICS]
+Price at the moment of interaction: [PRICE_SNAPSHOT_AND_CURRENCY]
+Slot: [SLOT_ID]
+Date and time: [VIEWING_DATE_TIME_TIMEZONE]
+Address: [VIEWING_ADDRESS]
+Broker: [BROKER_ID_NAME_AND_WORK_CONTACT]
+Key limitation: A viewing appointment does not reserve the apartment and is not a transaction
+Next step: [NEXT_STEP]
+Partial or unsuccessful outcome. If the appointment was not created, the receipt is still issued and shows the actual status, the error, the fields not provided and the permissible next step.
+I. Mistakes and corrections
+Erroneous value | [ORIGINAL_VALUE | none]
+Where it occurred: [MESSAGE_ID_OR_EVENT_ID]
+How it was detected: [DETECTION_RECORD]
+Corrected value | [CORRECTED_VALUE | none]
+State after correction: [CORRECTED_STATE]
+History retained | [ORIGINAL_RECORD_RETAINED: yes | no]
+J. Human involvement and escalation
+Handover reason | [HANDOVER_REASON | none]
+Addressee: [BROKER_OR_SUPPORT]
+Context passed: [HANDOVER_CONTEXT]
+Channel: [HANDOVER_CHANNEL]
+Status | [transferred | contact_provided | requested | failed | none]
+System evidence | [HANDOVER_EVENT_ID | not_recorded]
+Employee action | [HUMAN_ACTION | none]
+K. Snapshot of the public documents in force
+AI Policy: [POLICY_VERSION, effective_at, full_text_attachment, checksum]
+AI Passport: [PASSPORT_VERSION, effective_at, full_text_attachment, checksum]
+The receipt includes a full public snapshot of the documents or an immutable attachment to the package. A link to the current web page does not replace a snapshot of the version in force during the interaction.
+L. Integrity and the two copies
+Server time: [PLATFORM_TIMESTAMP]
+Checksum | [PLATFORM_CONTENT_HASH | not_enabled]
+Archive status: [ARCHIVE_STATUS]
+Customer copy: [ISSUED_TO_CUSTOMER_AT]
+Company copy: [ARCHIVED_BY_COMPANY_AT]
+Verification: [VERIFY_URL_OR_QR]
+Redactions | [REDACTIONS_AND_REASONS | none]
+Retention period: [RETENTION_RULE]
+Technical boundary. The model does not invent the receipt_id, server time, hash, QR, verify_url or archive status. These fields are filled only by the platform.
+M. Complaints and correction
+Support: support@marinakeysrealestate.com; +34 960 000 100
+Complaint: complaints@marinakeysrealestate.com
+Data questions: privacy@marinakeysrealestate.com
+Request link: [COMPLAINT_URL]
+What can be disputed: A mistake, data, an amount, an action, the absence of a human, or the outcome
+Link to the receipt: Include the receipt_id when submitting the request
+Correction outcome | [RESOLUTION_RECEIPT_ID | not_applicable]
+3. Machine-readable core
+The structured data and the human-readable version are created from the same object. Values must not diverge; the full conversation and public snapshots may be passed as separate attachments.
+{ /   "schema_version": "AI_RECEIPT_1.0", /   "receipt_id": "[PLATFORM_RECEIPT_ID]", /   "status": "[completed|interrupted|corrected]", /   "evidence_completeness": "[complete|partial]", /   "organization": {"name": "Marina Keys Realty"}, /   "service": { /     "service_id": "APARTMENT_VIEWING", /     "passport_version": "[PASSPORT_VERSION]" /   }, /   "interaction": { /     "run_id": "[RUN_ID]", /     "started_at": "[STARTED_AT]", /     "ended_at": "[ENDED_AT]", /     "timezone": "[TIMEZONE]", /     "channel": "[CHANNEL]", /     "language": "[LANGUAGE]" /   }, /   "disclosure": "[DISCLOSURE_EVENT]", /   "messages": "[FULL_TRANSCRIPT_ATTACHMENT]", /   "data": "[DATA_NOTICE_FIELDS_CONSENTS]", /   "material_actions": "[TOOL_AND_HUMAN_EVENTS]", /   "outcome": "[VIEWING_RESULT]", /   "corrections": "[CORRECTION_EVENTS]", /   "handover": "[HUMAN_HANDOVER]", /   "public_snapshots": "[POLICY_AND_PASSPORT_ATTACHMENTS]", /   "integrity": "[PLATFORM_INTEGRITY_ENVELOPE]", /   "complaint": "[COMPLAINT_AND_REVIEW_CHANNELS]" / }
+4. Completeness check before issuance
+The receipt_id and server time were received from the platform, not created by the model.
+The full conversation is present and matches the message log.
+Every claimed action has an event_id or the marker not_recorded.
+The appointment outcome matches the create_viewing log and the current slot state.
+The data, the notice and the confirmation to continue appear in the correct sequence.
+All corrections and any human handover are kept together with the original events.
+Snapshots of the POLICY and PASSPORT versions in force are attached.
+The customer copy and the archive copy are created from the same object.
+Verification and complaint are available via the receipt_id.
+Readiness criterion. The receipt is ready for issuance when a person can reconstruct the course of the interaction, compare the outcome with the rules in force and use the receipt_id for verification, correction or a complaint.
