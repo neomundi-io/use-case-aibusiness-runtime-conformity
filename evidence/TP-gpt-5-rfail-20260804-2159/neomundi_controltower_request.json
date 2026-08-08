@@ -1,0 +1,10 @@
+﻿{
+    "source_type":  "llm",
+    "mode":  "OBS",
+    "llm_prompt":  "Operational receipt conformity check.\nCompare an AI-generated operational receipt with the authoritative append-only journal and final platform state.\nTreat the deterministic validator output as the measured runtime result. Do not infer missing facts.\nRun ID: TP-gpt-5-rclean-20260804-2159",
+    "llm_response":  "NeoMundi deterministic validation result\nrun_id: TP-gpt-5-rclean-20260804-2159\nreceipt_conformity: non_conformant\njournal_integrity: intact\ndelta_count: 1\n\nDetected differences:\n- field=material_actions.missing_event | receipt=absent | authoritative=E-004 get_handover_status | severity=critical",
+    "raw_metrics":  {
+                        "token_count":  147,
+                        "latency_ms":  0
+                    }
+}

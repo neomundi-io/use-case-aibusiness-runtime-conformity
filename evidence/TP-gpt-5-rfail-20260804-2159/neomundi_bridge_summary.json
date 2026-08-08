@@ -1,0 +1,16 @@
+﻿{
+    "status":  "SUCCESS",
+    "run_id":  "TP-gpt-5-rclean-20260804-2159",
+    "mode":  "OBS",
+    "endpoint":  "https://api.neomundi.io/v1/govern",
+    "receipt_conformity":  "non_conformant",
+    "journal_integrity":  "intact",
+    "deterministic_delta_count":  1,
+    "controltower_decision":  "ALLOW",
+    "controltower_request_id":  "0e819936-f95d-4e09-af75-0aaff22dae8c",
+    "controltower_trace_id":  "trace-0e819936",
+    "api_elapsed_ms":  20279.278,
+    "validation_report_file":  "C:\\Claude Code\\экс\\ИИ-регламенты\\Sebastien\\English version 2\\Execution environment\\runs\\TP-gpt-5-rfail-20260804-2159\\validation_report.json",
+    "controltower_request_file":  "C:\\Claude Code\\экс\\ИИ-регламенты\\Sebastien\\English version 2\\Execution environment\\runs\\TP-gpt-5-rfail-20260804-2159\\neomundi_controltower_request.json",
+    "controltower_response_file":  "C:\\Claude Code\\экс\\ИИ-регламенты\\Sebastien\\English version 2\\Execution environment\\runs\\TP-gpt-5-rfail-20260804-2159\\neomundi_controltower_response.json"
+}
