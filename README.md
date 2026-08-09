@@ -414,6 +414,23 @@ AI Service Governance | PhD in e-government | Helping organizations use AI to se
 
 ---
 
+### Attribution & Licensing
+
+The deterministic receipt validator v1.1 and the Receipt Conformity Policy v1.0 documented in this repository were developed by:
+
+**Sergei Ponomarev — aibusiness.vc**
+
+NeoMundi integrates these components within the documented interoperability workflow while preserving a clear separation between runtime measurement, receipt validation, conformity assessment and governance decision.
+
+Unless otherwise stated:
+
+- **Code** is licensed under the **Apache License 2.0**.
+- **Methodology and documentation** are licensed under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** license.
+
+Authorship and attribution must be preserved where explicitly identified.
+
+---
+
 # Version française
 
 [🇬🇧 Back to English](#english)
@@ -821,3 +838,20 @@ AI Service Governance | PhD in e-government | Helping organizations use AI to se
 - [ControlTower](https://controltower.neomundi.io/welcome)
 - [Runtime Interoperability Contract](https://github.com/neomundi-io/runtime-interoperability-contract)
 - [NeoMundi AI Observatory](https://github.com/neomundi-io/neomundi-ai-observatory)
+
+---
+
+### Attribution & licences
+
+Le validateur déterministe de récépissés v1.1 et la Receipt Conformity Policy v1.0 documentés dans ce dépôt ont été développés par :
+
+**Sergei Ponomarev — aibusiness.vc**
+
+NeoMundi intègre ces composants dans le workflow d’interopérabilité documenté, tout en maintenant une séparation claire entre la mesure runtime, la validation du récépissé, l’évaluation de conformité et la décision de gouvernance.
+
+Sauf mention contraire :
+
+- le **code** est placé sous licence **Apache License 2.0** ;
+- la **méthodologie et la documentation** sont placées sous licence **Creative Commons Attribution 4.0 International (CC BY 4.0)**.
+
+Les mentions d’auteur et d’attribution doivent être conservées lorsqu’elles sont explicitement indiquées.
