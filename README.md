@@ -395,6 +395,25 @@ Not yet demonstrated:
 
 ---
 
+## Ressources
+
+### Sergei Ponomarev / aibusiness.vc
+
+**Sergei Ponomarev**  
+AI Service Governance | PhD in e-government | Helping organizations use AI to serve their customers better
+
+- [LinkedIn](https://www.linkedin.com/in/sergei-ponomarev/)
+- [aibusiness.vc](https://aibusiness.vc) — Test-purchase methodology, service standards and deterministic receipt-conformity framework.
+
+### NeoMundi
+
+- [NeoMundi Research](https://neomundi.org/)
+- [ControlTower](https://controltower.neomundi.io/welcome)
+- [Runtime Interoperability Contract](https://github.com/neomundi-io/runtime-interoperability-contract)
+- [NeoMundi AI Observatory](https://github.com/neomundi-io/neomundi-ai-observatory)
+
+---
+
 # Version française
 
 [🇬🇧 Back to English](#english)
@@ -786,9 +805,19 @@ Non encore démontré :
 
 ---
 
-## Partner
+## Ressources
 
-**aibusiness.vc**  
-Test-purchase methodology, service standards and deterministic receipt-conformity framework.
+### Sergei Ponomarev / aibusiness.vc
 
-https://aibusiness.vc
+**Sergei Ponomarev**  
+AI Service Governance | PhD in e-government | Helping organizations use AI to serve their customers better
+
+- [LinkedIn](https://www.linkedin.com/in/sergei-ponomarev/)
+- [aibusiness.vc](https://aibusiness.vc) — Test-purchase methodology, service standards and deterministic receipt-conformity framework.
+
+### NeoMundi
+
+- [NeoMundi Research](https://neomundi.org/)
+- [ControlTower](https://controltower.neomundi.io/welcome)
+- [Runtime Interoperability Contract](https://github.com/neomundi-io/runtime-interoperability-contract)
+- [NeoMundi AI Observatory](https://github.com/neomundi-io/neomundi-ai-observatory)
