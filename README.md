@@ -8,6 +8,17 @@
 
 # English
 
+## November 2026 — AI Test Purchase series (ongoing)
+
+Sergei Ponomarev (aibusiness.vc) is conducting a separate, ongoing series (6 November–5 December 2026) using a fictional real-estate agency, Marina Keys Realty, across eight model configurations. His test-purchase protocol compares **the company's declared service commitments**, **what the agent tells the customer**, and **what the instrumented platform actually records** in its operation journal. Receipt conformity and execution discrepancies are assessed by Sergei's own test framework; a separate blinded model assesses completed purchases and is not an organisationally independent auditor.
+
+**NeoMundi's role:** independent runtime measurement of the agent replies, with coverage and measurement-version boundaries. NeoMundi does not authorise operations, certify receipt conformity, independently audit Sergei's study, or rank the eight models.
+
+**Publication boundary:** the current standard, prompts and change log are public in [Sergei's source repository](https://github.com/sergeiperm81-ux/ai-test-purchase). Results, counts and model identities remain reserved until 5 December 2026, subject to Sergei's verification. This new series does not replace or retroactively extend the August 2026 controlled reference pilot documented below.
+
+---
+
+
 ## What happened here?
 
 An AI service agent said what it had done.
@@ -432,6 +443,17 @@ Authorship and attribution must be preserved where explicitly identified.
 ---
 
 # Version française
+
+## Novembre 2026 — Série AI Test Purchase (en cours)
+
+Sergei Ponomarev (aibusiness.vc) conduit une série distincte du 6 novembre au 5 décembre 2026, dans le cadre fictif de l'agence immobilière Marina Keys Realty, sur huit configurations de modèles. Son protocole confronte **les engagements déclarés du service**, **les déclarations de l'agent au client** et **les opérations effectivement enregistrées** dans le journal de la plateforme instrumentée. La conformité des reçus et les écarts d'exécution sont évalués par son propre dispositif ; un modèle distinct, évaluant les achats terminés à l'aveugle, ne constitue pas un auditeur indépendant sur le plan organisationnel.
+
+**Rôle de NeoMundi :** mesure indépendante des réponses de l'agent à l'exécution, avec traçabilité de la couverture et des versions de mesure. NeoMundi n'autorise pas les opérations, ne certifie pas la conformité des reçus, n'audite pas indépendamment l'étude de Sergei et ne classe pas les huit modèles.
+
+**Limite de publication :** protocole, prompts et journal des modifications sont publics dans [le dépôt source de Sergei](https://github.com/sergeiperm81-ux/ai-test-purchase). Résultats, décomptes et identités des modèles restent réservés jusqu'au 5 décembre 2026, après vérification par Sergei. Cette série ne remplace ni n'étend rétroactivement le pilote contrôlé d'août 2026 présenté ci-dessous.
+
+---
+
 
 [🇬🇧 Back to English](#english)
 
