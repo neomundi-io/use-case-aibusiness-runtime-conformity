@@ -1,6 +1,6 @@
 # aibusiness.vc × NeoMundi
 
-**AI agent test-purchase, runtime receipt conformity and traceable evidence — interoperability pilot.**
+**AI agent test-purchase series — controlled reference, runtime receipt conformity and traceable evidence.**
 
 [🇫🇷 Lire en français](#version-française)
 
@@ -54,7 +54,7 @@ The controlled pilot provides evidence that:
 - the resulting validation observation can be submitted to NeoMundi ControlTower and linked to API request and trace identifiers;
 - a clean / deliberately failing acceptance pair can demonstrate conformity-policy behavior while keeping the model, scenario and environment controlled.
 
-This is a **controlled interoperability pilot**, not a universal certification of AI-agent reliability.
+This is a **controlled AI-agent test-purchase reference**, not a universal certification of AI-agent reliability.
 
 ---
 
@@ -492,7 +492,7 @@ Le pilote contrôlé apporte des éléments montrant que :
 - l’observation de validation résultante peut être envoyée à NeoMundi ControlTower et reliée à des identifiants d’API et de trace ;
 - une paire d’acceptation propre / volontairement défaillante peut démontrer le comportement de la politique de conformité tout en gardant le modèle, le scénario et l’environnement contrôlés.
 
-Il s’agit d’un **pilote contrôlé d’interopérabilité**, et non d’une certification universelle de fiabilité des agents IA.
+Il s’agit d’une **référence contrôlée d’achat test d’agent IA**, et non d’une certification universelle de fiabilité des agents IA.
 
 ---
 
